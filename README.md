@@ -7,5 +7,5 @@
 [![](https://img.shields.io/badge/author-Lucas%20Bruno-green)](https://github.com/Lucasbrunoferreira)  ![](https://img.shields.io/badge/language-typescript-blue)
 
 
-> API developed with [Deno](https://deno.land/), to discover the new secure JavaScript and TypeScript runtime.
+> API developed with [Deno](https://deno.land/), to discover the new secure JavaScript and TypeScript runtime. </br>
 > Project intended for my personal studies.
