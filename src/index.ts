@@ -10,7 +10,9 @@ env.config();
 initializeDatabase();
 
 const app = new Application();
+
 app.use(router.routes());
+app.use(router.allowedMethods());
 
 console.log(`🦕 Server is running on port ${APP_PORT}`);
 await app.listen({ port: APP_PORT });

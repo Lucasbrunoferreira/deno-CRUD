@@ -25,6 +25,7 @@ export async function saveContact({ request, response }: Context) {
     response.body = result;
   } catch (err) {
     logger.error(err);
+    response.body = err;
     response.status = httpStatus.INTERNAL_SERVER_ERROR;
   }
 }

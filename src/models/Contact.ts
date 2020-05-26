@@ -9,8 +9,17 @@ export default class Contact extends Model {
       primaryKey: true,
       autoIncrement: true,
     },
-    name: DATA_TYPES.STRING,
-    surname: DATA_TYPES.STRING,
-    email: DATA_TYPES.STRING,
+    name: {
+      type: DATA_TYPES.STRING,
+      required: true,
+    },
+    surname: {
+      type: DATA_TYPES.STRING,
+      required: true,
+    },
+    email: {
+      type: DATA_TYPES.STRING,
+      required: true,
+    },
   };
 }

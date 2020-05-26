@@ -1,5 +1,8 @@
 import { Router } from "https://deno.land/x/oak/mod.ts";
-import { getAllContacts, saveContact } from "./controllers/contacts.ts";
+import {
+  getAllContacts,
+  saveContact
+} from "./controllers/contacts.ts";
 
 const router = new Router();
 
@@ -9,6 +12,6 @@ router.get("/", (ctx) => {
 
 router
   .get("/contacts", getAllContacts)
-  .post("/contacts", saveContact);
+  .post("/contacts", saveContact)
 
 export { router };
